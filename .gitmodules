@@ -1,0 +1,6 @@
+[submodule "MvvmCross-Binaries"]
+	path = MvvmCross-Binaries
+	url = git@github.com:slodge/MvvmCross-Binaries.git
+[submodule "SlidingPanels.Touch"]
+	path = SlidingPanels.Touch
+	url = git@github.com:patbonecrusher/SlidingPanels.Touch.git
