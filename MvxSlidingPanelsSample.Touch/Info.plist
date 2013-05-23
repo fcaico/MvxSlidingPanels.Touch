@@ -20,8 +20,6 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIMainStoryboardFile~ipad</key>
-	<string>MainStoryboard_iPad</string>
 	<key>MinimumOSVersion</key>
 	<string>5.0</string>
 	<key>CFBundleIconFiles</key>

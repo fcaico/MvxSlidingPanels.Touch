@@ -229,26 +229,25 @@
     <Compile Include="Main.cs" />
     <Compile Include="Views\MasterContainerView.cs" />
     <Compile Include="Views\BottomPanelView.cs" />
-    <Compile Include="Views\BottomPanelView.designer.cs" >
+    <Compile Include="Views\BottomPanelView.designer.cs">
       <DependentUpon>BottomPanelView.cs</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\FirstView.cs" />
-    <Compile Include="Views\FirstView.designer.cs" >
+    <Compile Include="Views\FirstView.designer.cs">
       <DependentUpon>FirstView.cs</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\LeftPanelView.cs" />
-    <Compile Include="Views\LeftPanelView.designer.cs" >
+    <Compile Include="Views\LeftPanelView.designer.cs">
       <DependentUpon>LeftPanelView.cs</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\RightPanelView.cs" />
-    <Compile Include="Views\RightPanelView.designer.cs" >
+    <Compile Include="Views\RightPanelView.designer.cs">
       <DependentUpon>RightPanelView.cs</DependentUpon>
-	</Compile>
+    </Compile>
     <Compile Include="Views\SecondView.cs" />
-    <Compile Include="Views\SecondView.designer.cs" >
+    <Compile Include="Views\SecondView.designer.cs">
       <DependentUpon>SecondView.cs</DependentUpon>
-	</Compile>
-
+    </Compile>
     <Compile Include="AppDelegate.cs" />
     <Compile Include="MvxSlidingPanelsTouchViewPresenter.cs" />
     <Compile Include="Setup.cs" />
