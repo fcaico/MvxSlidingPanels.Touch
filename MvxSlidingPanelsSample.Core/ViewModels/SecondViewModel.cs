@@ -32,6 +32,16 @@ namespace MvxSlidingPanelsSample.Core.ViewModels
 		void DoSomething ()
 		{
 			CenterText = "You Did Something!";
+
+			System.Timers.Timer timer = new System.Timers.Timer(1000);
+
+			timer.Elapsed += (object sender, System.Timers.ElapsedEventArgs e) => {
+				CenterText = "Now Do It Again..."; 
+				timer.Stop();
+			};
+
+			timer.Start();
+
 		}
 
 		public SecondViewModel()
