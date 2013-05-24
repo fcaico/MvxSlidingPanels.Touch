@@ -105,7 +105,14 @@ namespace MvxSlidingPanels.Touch
 		/// <typeparam name="T">The 1st type parameter.</typeparam>
 		protected void AddPanel<T>(PanelType panelType, MvxViewController mvxController) where T : MvxViewModel
 		{
+
 			// use the first view to create a view of the desired type
+			// We only do this because there's no convenient way to create a view from inside the presenter
+
+			// TODO:  According to Stuart, We c(sh)ould be doing something like this instead:
+			// var parameterBundle = new MvxBundle(null);
+			// var request = new MvxViewModelRequest<TTargetViewModel>(parameterBundle, null, MvxRequestedBy.UserAction);
+			// return Mvx.Resolve<IMvxTouchViewCreator>().CreateView(request);
 			UIViewController viewToAdd = (UIViewController) mvxController.CreateViewControllerFor<T>();
 
 			// Insert the view into a new container (of the right type) and insert 
