@@ -35,7 +35,7 @@ namespace MvxSlidingPanels.Touch.Views
         public override void ViewDidLoad ()
         {
             base.ViewDidLoad();
-			View.Frame = new RectangleF(View.Frame.X, View.Frame.Y, 250F, View.Frame.Height);
+			//View.Frame = new RectangleF(View.Frame.X, View.Frame.Y, 250F, View.Frame.Height);
 
             // Perform any additional setup after loading the view, typically from a nib.
 			this.AddBindings(
